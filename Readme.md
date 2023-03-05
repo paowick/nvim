@@ -11,5 +11,8 @@ $uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 )
 ```
 ```
-mkdir plugged
+cd .\plugged\coc.nvim\
+```
+```
+npm install
 ```
