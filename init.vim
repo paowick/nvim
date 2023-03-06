@@ -1,5 +1,6 @@
 au VimEnter * NERDTree
 set number
+let NERDTreeShowHidden=1
 
 call plug#begin('~/AppData/Local/nvim/plugged')
 
