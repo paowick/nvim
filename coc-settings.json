@@ -1,0 +1,5 @@
+{
+	"diagnostic.virtualText": false,
+  "diagnostic.checkCurrentLine": true,
+  "git.enableGutters": true
+}
