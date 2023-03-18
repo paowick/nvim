@@ -1,7 +1,7 @@
 
 # My persanal neovim setup
 ## windows
-```
+```sh
 $uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 (New-Object Net.WebClient).DownloadFile(
@@ -13,7 +13,7 @@ $uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
 
 ## linux
-```
+```sh
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -22,9 +22,9 @@ endif
 ```
 
 ## coc init
-```
+```sh
 cd .\plugged\coc.nvim\
 ```
-```
+```sh
 npm install
 ```
